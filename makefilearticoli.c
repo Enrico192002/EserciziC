@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-    int dimensione=argv[2];
-    char riga[dimensione];
+    int dimensione;
+    char riga[256];
     File *file;
     int x=0;
     if(argc<2)
