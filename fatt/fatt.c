@@ -1,5 +1,5 @@
 #include "fatt.h"
-int fatt(long int h) {
+unsigned long long int fatt(long int h) {
   if(n==1) {
     return 1;
            } else {
